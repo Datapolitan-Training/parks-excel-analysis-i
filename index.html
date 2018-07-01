@@ -99,6 +99,7 @@ class:center,middle
 
 # How Do We Get the Answer?
 
+.middle[![img-center-100](images/data_graph.png)]
 
 ---
 
@@ -134,7 +135,7 @@ class:center,middle
 
 ---
 
-
+# Summarize the 
 
 ---
 
@@ -171,7 +172,7 @@ class:center,middle
 
 class:center,middle
 <!-- end of A block -->
-# Wrap-up
+# WRAP-UP
 
 ---
 
@@ -211,40 +212,43 @@ class:middle
 
 ---
 
-class:center, middle
-# Data Analysis Should Drive Decision Making
-# &nbsp;
-## &nbsp;
+# 5 Data Analytics Tasks
+--
+
+1. Aggregating (PivotTable)
+2. Sorting
+3. Filtering
+4. Manipulating
+5. Visualizing
 
 ---
 
-class:center, middle
-# Data Analysis Should Drive Decision Making
-# This is what it means to be "data driven"
-## &nbsp;
+# Sorting
++ Reorganize rows in a dataset based on the values in a column
++ Can sort on multiple columns
 
 ---
 
-class:center, middle
-# Data Analysis Should Drive Decision Making
-# This is what it means to be "data driven"
-## And good analysis should lead to good decisions
+# Sorting by Date
+
+![img-center-100](images/sort_overview.png)
+
+![img-center-100](images/sort1.png)
 
 ---
-name:avp
-# But It's Just One Part of a Process
 
-![img-center-80](images/valuechain.png)
+# Sorting by Date
+![img-center-65](images/sort4a.png)
 
-???
-+ Facilitator introduces the idea of the Analytics Value Chain
+![img-center-65](images/sort4b.png)
+
 
 ---
-exclude:true
-class: middle
-> "If you do not know how to ask the right question, you discover nothing."
 
-## - W. Edward Deming
+# Sorting by Date
+![img-center-60](images/sort4.png)
+
+![img-center-60](images/sort_final.png)
 
 ---
 
@@ -267,9 +271,13 @@ class: middle
 ![img-center-80](images/cf2.png)
 
 ---
+
+# Your Turn
+
+---
 class:center,middle
 <!-- end of B block -->
-# Wrap-Up
+# WRAP-UP
 
 ---
 
@@ -279,78 +287,13 @@ class:center,middle
 ---
 
 class:center, middle
+<!-- start of C block -->
 # WELCOME BACK!
 
 ---
 
 class:center,middle
 # Let's Get Some Data
-
----
-
-exclude:true
-# Definition of Open Data
-
-> Open data is data that can be freely used, shared and built-on by anyone, anywhere, for any purpose
-
-## - [Open Knowledge International](http://blog.okfn.org/2013/10/03/defining-open-data/)
-
----
-exclude:true
-# Key Features of Open Data
-+ Availability and access
-+ Reuse and redistribution
-+ Universal participation
-
----
-
-exclude:true
-# Open Data Benefits
-+ Transparency
-+ Releasing social and commercial value
-+ Participation and engagement
-
----
-
-exclude:true
-# Keeping NYC Accountable on Parking Tickets
-
-![img-center-75](images/nyc_parking_ticket.jpg)
-.caption[Image Credit: Parking Violator by [Atomische * Tom Giebel](https://www.flickr.com/photos/atomische/2299948817/), [CC BY-NC-ND 2.0 ](https://creativecommons.org/licenses/by-nc-nd/2.0/)]
-
-Source: http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new
-
----
-
-exclude:true
-# Open Data Concerns
-+ Privacy (Personally identifiable information (PII), Mosaic Effect)
-+ Confidentiality
-+ Security
-
----
-
-exclude:true
-# When Good Data Goes Bad
-
-![img-center-70](images/nyctaxi.jpeg)
-.caption[Image Credit: Kenny Louie, [CC BY 2.0](http://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ANYC_TAXI_(7038011669).jpg)]
-
-[Gawker matches Taxi and Limousine Data with Paparazzi Photos](http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546)
-
----
-
-class:center,middle
-# We're going to be using data from the<br> <a href="https://opendata.cityofnewyork.us/" target="_blank">NYC Open Data Portal</a> for the first part of today's data exercise
-
-## We'll be using <br>FY2016-2017 Daily Tasks Park Cleaning Records
-
----
-
-# Data for Exercise
-![img-center-100](images/dt_download.png)
-
-#### [Click to download if you have problems](data/20160601_20160630_Daily_Tasks_Park_Cleaning_Records.csv)
 
 ---
 
@@ -371,14 +314,6 @@ exclude:true
 
 ---
 
-exclude:true
-# Finding Context
-
-![img-center-80](images/context.png)
-
----
-
-exclude:true
 # Exploratory Data Analysis
 + Goal -> Discover patterns in the data
 + Understand the context
@@ -387,119 +322,6 @@ exclude:true
 + Explore outliers
 
 ####Tukey, J.W. (1977). Exploratory data analysis. Reading, MA: Addison-Wesley
-
----
-
-# Steps to Prepare This Data
---
-
-+ Filter for "Work" as the `activity`
---
-
-+ Summarize by Park
---
-
-+ Find the Borough for Each Site
---
-
-+ Visualize Results
-
-???
-+ Task: Students follow a guided exercise in key data manipulation tasks using data related to the challenge, including 
-+ Formatting
-+ Sorting/filtering
-+ Aggregating (PivotTables)
-+ Cleaning/manipulating
-+ Visualizing
-+ Outcome: Students are practiced in key data analytics task with Parks-specific data following the general outlines of the problem ideation and process mapping work they performed in the morning
-+ Format: Guided exercise and facilitated discussion
-+ Outline
-+ Introduction to key analytical questions
-+ Guided task demonstration
-+ Wrap-up
-
-
----
-
-# Filter the Activity Column
-
-![img-center-80](images/filter1_rev.png)
-
----
-
-# Filter the Activity Column
-
-![img-right-40](images/filter2_rev_trim.png)
-+ Uncheck "Select All"
-+ Check "Work"
---
-
-+ The color of row labels will change to show you're filtering rows
-
-![img-left-50](images/filter3_box_rev.png)
-
----
-
-# PivotTables
---
-
-+ A data summarization and comparison tool for quickly understanding and displaying the data you’re analyzing
---
-
-+ Find it on the Insert ribbon
---
-
-
-![img-center-60](images/pivottable1.png)
-
----
-
-# PivotTables
-![img-right-50](images/pivottable2.png)
-+ Select the range and destination
---
-
-+ Should default to all your data and a new sheet
-
----
-
-# PivotTables
-![img-right-30](images/pivottable3_border.png)
---
-
-+ Click and drag the column headers into the boxes
---
-
-+ **Filters** -> allows you to filter on the values in that field
---
-
-+ **Rows** -> puts the values of that field in the rows of the pivottable
---
-
-+ **Columns** -> puts the values of that field into the columns of the pivottable
---
-
-+ **Values** -> determines how the values of the rows and columns are counted
-
----
-
-# Summarize by Park
-+ What are some of the questions you'd like to know by property?
-
-![img-center-70](images/hours_worked_borough.png)
-
-???
-+ A short brainstorming exercise for the different operations that can be performed on the data
-
----
-
-# Finding the Borough for Each Site
---
-
-+ What if we want to aggregate by borough?
---
-
-+ Can we do that easily with this data?
 
 ---
 
@@ -518,104 +340,34 @@ exclude:true
 
 name:cat-function
 # Some Categories of Functions in Excel
---
-
 + Database functions
---
-
 + Date and time functions
---
-
 + Financial functions
---
-
 + Logical functions
---
-
 + Lookup and reference functions
---
-
 + Math and trigonometry functions
---
-
 + Statistical functions
---
-
 + Text functions
---
-
 + 13 categories in total
---
-
 + [Click for a list of some useful functions](#excel-guide)
 
 ---
 
-# Extracting the Borough
---
+# Exporting Graphics
++ You can copy and paste graphics into any Microsoft application
++ The default is a Microsoft Office Graphic Object
 
-+ Insert a new column after `district`
---
+![img-right-50](images/copy1.png)
 
-+ Call it `Borough`
---
-
-+ Insert the following formula into cell .blue[I2]
---
-
-```
-=LEFT(H2,1)
-```
---
-+ Copy the formula down through all the cells
---
-
-+ More information on the [LEFT function](https://support.office.com/en-us/article/LEFT-LEFTB-functions-9203d2d2-7960-479b-84c6-1ea52b99640c)
++ You can change to an image or other format
++ [More information is online](http://www.thespreadsheetguru.com/blog/best-way-to-paste-special-excel-objects-as-powerpoint-images)
 
 ---
 
-# Extracting the Borough
-![img-right-35](images/pivottable4_refresh.png)
-+ Be sure to refresh your pivottable
---
+class:center,middle
+<!-- end of C block -->
+# WRAP-UP
 
-+ Filter on activity `Work` and sum by number of hours
-
-![img-center-30](images/pivottable5_box.png)
---
-
-+ Filter out the empty value
-
----
-
-# Extracting the Borough
---
-
-+ You can retype entries in a pivottable
---
-
-+ For example, you can change the boroughs just by typing over the letters
---
-
-
-![img-center-100](images/pivottable6_rev.png)
-
----
-
-# Extracting the Borough
-+ You could also write a formula
-
-```
-=IF(LEFT(H2,1)="M","Manhattan",
-	IF(LEFT(H2,1)="X","Bronx",
-	IF(LEFT(H2,1)="B","Brooklyn",
-	IF(LEFT(H2,1)="Q","Queens",
-	IF(LEFT(H2,1)="R","Staten Island","")))))
-```
---
-<a href="https://giphy.com/gifs/reaction-office-space-that-was-easy-zcCGBRQshGdt6"><iframe src="https://giphy.com/embed/zcCGBRQshGdt6" width="400" height="228" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>
-
-#### [Sheet with formulas](data/20160601_20160630_Daily_Tasks_Park_Cleaning_Records_formulas.xlsx)
 ---
 
 class:center,middle
@@ -623,34 +375,13 @@ class:center,middle
 
 ---
 
-exclude:true
-class:center,middle
-# Supervisor Inspections
-## [Click to download the Sites Data](data/AMPSInsExtract_Jun2016_Sites_20170613.csv)<br>[Click to download the Features Data](data/AMPSInsExtract_Jun2016_Features_20170613.csv)
-
-## You can find this on the Intranet: http://wss.parks.nycnet/IPM/default.aspx
 
 ---
-
 name:final-ex
+<!-- start of D block -->
 # Your Turn
---
-
-+ Take the problem you defined
---
-
-+ Follow your map
---
-
 + We'll be here to help
---
-
 + Make sure you're documenting your steps and save your work
---
-
-+ Someone is going to come behind you to look at and explain your work
---
-
 + Feel free to use the [list of useful functions](#excel-guide)
 
 
@@ -677,15 +408,6 @@ name:final-ex
 + Students as a group review the work of another group and verifying results
 + Students present the work of the group they reviewed to the class for brief discussion and feedback
 
-
----
-
-exclude:true
-# Links to Other Open Data Portals
-+ New York State - https://data.ny.gov
-+ US Federal Government - https://www.data.gov/
-
-
 ---
 
 class:center,middle
@@ -699,47 +421,25 @@ class:center,middle
 
 name:final
 # Final Thoughts
---
-
 + Don't try to boil the ocean
---
-
 + Data can tell a story, but doesn't speak for itself
---
-
 + Good analysis is about telling a true and compelling story
---
-
 + Be good to your data and it will be good to you
---
-
 + Try to focus on outcomes, not just outputs
 
 ---
 
 # Resources
---
-
 + [Microsoft Office Support](http://office.microsoft.com/en-us/support/) - Documentation on various MS Office products
---
-
 + [Excel Tips](http://excel.tips.net/) - Various tips and tricks for using Excel
---
-
 + [Data Science Cheatsheet](https://github.com/govex/Data-Science) - Includes various terms and concepts related to data science
 
 ---
 
 # Resources
 + Carl Anderson [_Creating a Data-Driven Organization_](http://shop.oreilly.com/product/0636920035848.do)
---
-
 + DJ Patil & Hilary Mason [_Data Driven: Creating a Data Culture_](https://www.oreilly.com/ideas/data-driven)
---
-
 + [Copy of today's handout](workbook.pdf)
---
-
 + [Datapolitan training classes](http://training.datapolitan.com/)
 
 ---
