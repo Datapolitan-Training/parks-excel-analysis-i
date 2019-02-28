@@ -1,9 +1,13 @@
 # Data Analysis with Excel I
 
 
-## Overview
+## Summary
 
 A one-day class to develop the necessary skills to clean, join, process, and visualize NYC Parks data with Microsoft Excel
+
+## Target Audience
+
+## Goals
 
 ## Participant Development Areas
 
@@ -17,7 +21,9 @@ A one-day class to develop the necessary skills to clean, join, process, and vis
 
 **Language Objective:** Develop greater fluency in basic data skills to conceptualize a problem with data, integrate context, and communicate a true and compelling data story to others
 
-## Class Outline
+## Learning Objectives
+
+## Outline
 + Welcome and Introductions
 + Exercise (aggregating 311 data by Boroughs)
 + Overview of Excel
@@ -35,3 +41,7 @@ A one-day class to develop the necessary skills to clean, join, process, and vis
 + Presentations
 + Wrap-up
 + Dismissal
+
+## Exercise Descriptions
+
+## Classroom Setup
