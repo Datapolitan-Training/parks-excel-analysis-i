@@ -1,6 +1,5 @@
 # Data Analysis with Excel I
 
-
 ## Summary
 
 A one-day class to develop the necessary skills to clean, join, process, and visualize NYC Parks data with Microsoft Excel
