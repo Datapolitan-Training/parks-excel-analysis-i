@@ -10,7 +10,7 @@ All employees who work with data in some form as part of their job. No familiari
 
 ## Goals
 + Introduce and practice key steps in exploratory data analysis
-+ Demonstrate key techniques for using Microsoft Excel for data analysis
++ Demonstrate key techniques using Microsoft Excel for advanced data analysis
 + Reinforce brainstorming, problem ideation, and process mapping skills introduced in previous classes
 + Practice presenting true and compelling data stories to peers
 + Cultivate an attitude of curiosity to foster a culture of data-driven inquiry
@@ -28,7 +28,7 @@ All employees who work with data in some form as part of their job. No familiari
 **Language Objective:** Develop greater fluency in basic data skills to conceptualize a problem with data, integrate context, and communicate a true and compelling data story to others
 
 ## Learning Objectives
-+ Participants will be familiar with the key steps in exploratory data analysis with Microsoft Excel
++ Participants will be familiar with the key steps of exploratory data analysis with Microsoft Excel
 + Participants will be practiced in using the techniques of brainstorming, problem ideation, and process mapping to scope and execute an analytical question
 + Participants will be practiced presenting analytical findings and describing the key steps in their analysis to their peers 
 + Participants will have an increased curiosity about how data can be leveraged for operational awareness and program success
