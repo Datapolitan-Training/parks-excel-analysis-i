@@ -2,9 +2,11 @@
 
 ## Summary
 
-A one-day class to develop the necessary skills to clean, join, process, and visualize NYC Parks data with Microsoft Excel
+A one-day class introducing the skills necessary to clean, process, and visualize NYC Parks data with Microsoft Excel. This class reinforces problem ideation and process mapping skills taught in Introduction to Data Analysis, as well as introduces best practices for documenting work. Working collaboratively in small groups, participants develop an analytical question they explore throughout the class, presenting their data story at the end of class for constructive feedback. 
 
 ## Target Audience
+
+All employees who work with data in some form as part of their job. No familiarity with Microsoft Excel or the data analysis process is necessary for this class, but partcipants should complete Introduction to Data Analysis prior to attending this class.
 
 ## Goals
 
