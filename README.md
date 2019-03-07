@@ -6,7 +6,7 @@ A one-day class introducing the skills necessary to clean, process, and visualiz
 
 ## Target Audience
 
-All employees who work with data in some form as part of their job. No familiarity with Microsoft Excel or the data analysis process is necessary for this class, but participants should complete Introduction to Data Analysis prior to attending this class.
+Employees of all levels of responsibility who work with data in some form as part of their job. No familiarity with Microsoft Excel or the data analysis process is necessary for this class, but participants should complete Introduction to Data Analysis prior to attending this class.
 
 ## Goals
 + Introduce and practice key steps in exploratory data analysis
