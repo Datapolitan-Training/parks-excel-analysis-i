@@ -1,4 +1,4 @@
-# Data Analysis with Excel I
+# Excel for Data Analysis I
 
 ## Summary
 
